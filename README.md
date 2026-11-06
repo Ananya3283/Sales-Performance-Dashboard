@@ -1,4 +1,6 @@
 # Sales-Performance-Dashboard
+
+**Live dashboard:** [ananya3283.github.io/Sales-Performance-Dashboard](https://ananya3283.github.io/Sales-Performance-Dashboard/), an interactive web version of the Power BI report. Filter by year, region, segment and category; every figure is computed from `salesdataset.xlsx` (`web/scripts/build_data.py`), and the West view matches the Power BI screenshot ($725.5K sales, $108.4K profit, 14.9% margin).
 ## Project Overview
 This project focuses on analyzing retail sales data using Power BI. The dashboard was created to track business performance through key metrics such as sales, profit, customer trends, and regional performance. The goal was to transform raw sales data into meaningful insights that can support business decision-making.
 ## Objective
@@ -62,4 +64,5 @@ Evaluated customer purchasing behavior and contribution to overall business perf
 ## Conclusion
 This project demonstrates how Power BI can be used to convert raw sales data into interactive dashboards and actionable business insights. The dashboard enables users to monitor performance, identify trends, and make data-driven decisions effectively.
 
-
+## Web version
+`web/` is a React + TypeScript + Vite app (Tailwind, Recharts, Motion), deployed to GitHub Pages by `.github/workflows/pages.yml`. Rebuild the data with `python web/scripts/build_data.py`, then `cd web && npm install && npm run dev`.
