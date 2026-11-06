@@ -51,6 +51,7 @@ export default function App() {
         title="Sales performance"
         dataset="Superstore orders, 2014 to 2017, 9,994 order lines."
         repo="https://github.com/Ananya3283/Sales-Performance-Dashboard"
+        linkText="Code and Power BI file on GitHub"
       />
 
       <div className="sticky top-0 z-20 -mx-4 mt-6 border-b bg-background/90 px-4 py-4 backdrop-blur sm:-mx-8 sm:px-8">

@@ -63,7 +63,7 @@ export function OrderedColumns({ data, format, color = "var(--left)", height = 2
   const reduce = useReducedMotion()
   return (
     <ChartContainer config={config} className="aspect-auto w-full" style={{ height }}>
-      <BarChart data={data} margin={{ left: 0, right: 0, top: 22, bottom: 0 }} barCategoryGap="22%">
+      <BarChart data={data} margin={{ left: 0, right: 14, top: 22, bottom: 0 }} barCategoryGap="22%">
         <XAxis dataKey="key" tickLine={false} axisLine={{ stroke: "var(--border)" }} tick={{ fontSize: 12 }} interval="preserveStartEnd" />
         <YAxis hide domain={[0, "dataMax"]} />
         <ChartTooltip cursor={{ fill: "var(--muted)" }} content={<Tip format={format} />} />
